@@ -13,7 +13,7 @@ __Demo__: [Click Here](https://orderfromhr05.smaranjitghose.codes/)
 | Sl.No | Description of experiment|Date|Status|
 |:-----:|---------------------------|:---:|----|
 |1|Create a simple webpage using HTML5 Semantic and Structural Elements | 2020-08-12 |✔️|
-|2|Add a Cascading Style sheet for designing the web page | 2020-08-19 |❌|
+|2|Create a webpage using HTML5 Media Elements| 2020-08-19 |❌|
 |3|Add a Cascading Style sheet for designing the web page | 2020-08-26 |❌|
 |4|Design a dynamic web page with validation using JavaScript| |❌|
 |5|Simple applications to demonstrate Servlets |  |❌|
