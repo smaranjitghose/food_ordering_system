@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HR05|Contact</title>
+    </head>
+    <body>
+        <h1>We would love to hear from you!</h1>
+        <img src = "assets/contact.png" alt = "contact-us" width = 40%>
+        <form action="https://food_ordering_app/submit">
+            <ul>
+        
+                <li>
+                    <input type = "text" placeholder="Your Name" required>
+                </li>
+        
+                <li>
+                    <input type="text" placeholder="Your Email" required>
+                </li>
+
+                <li>
+                    <input type="text" placeholder="Your Phone Number">
+                </li>
+        
+                <li>
+                    <input type="text" placeholder="Message" required>
+                </li>
+
+                <li>
+                    Are you a Student?
+                    <label for="student-yes"></label>
+                        <input type="radio" name="student" id="yes" value="1" checked>
+                            Yes
+                    </label>
+                    <label for="student-no"></label>
+                        <input type="radio" name="student" id="student-no" value="0">
+                            No
+                    </label>
+                </li>
+
+            </ul>
+            <button type = "submit">Submit</button>
+        </form>
+    </body>
+</html>
