@@ -6,6 +6,8 @@ __Guide:__ [Mrs J Vidhya](https://www.srmist.edu.in/engineering/dept-cse/faculty
 
 __Topic:__ A template website for ordering food from your local Cafe! 
 
+__Demo__: [Click Here](https://orderfromhr05.smaranjitghose.codes/)
+
 ** Here I build a dummy website for my favorite eatery near my college i.e. HR05
 
 | Sl.No | Description of experiment|Date|Status|
