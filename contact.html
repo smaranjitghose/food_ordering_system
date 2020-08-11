@@ -27,25 +27,22 @@
         <center><h1>We would love to hear from you!</h1></center>
         <center><img src = "assets/contact.png" alt = "contact-us" width = 40%></center>
         <form action="https://food_ordering_app/submit">
-            <ul>
-        
-                <li>
-                    <input type = "text" placeholder="Your Name" required>
-                </li>
-        
-                <li>
-                    <input type="text" placeholder="Your Email" required>
-                </li>
-
-                <li>
-                    <input type="text" placeholder="Your Phone Number">
-                </li>
-        
-                <li>
-                    <input type="text" placeholder="Message" required>
-                </li>
-
-                <li>
+           <label>Name:
+                <input type = "text" placeholder="Your Name" required>
+               </label>
+                <br><br>
+                <label>Email:
+                <input type="text" placeholder="Your Email" required>
+               </label>
+                <br><br>
+                <label>Phone Number:
+                <input type="text" placeholder="Your Phone Number">
+                </label>
+                <br><br>
+                <label for="">Message:
+                <textarea type="text" placeholder="Message" required></textarea>
+                </label>
+                <br><br>
                     Are you a Student?
                     <label for="student-yes"></label>
                         <input type="radio" name="student" id="yes" value="1" checked>
@@ -55,9 +52,7 @@
                         <input type="radio" name="student" id="student-no" value="0">
                             No
                     </label>
-                </li>
-
-            </ul>
+                    <br><br>
             <button type = "submit">Submit</button>
         </form>
         <!--Footer-->
