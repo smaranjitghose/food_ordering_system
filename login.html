@@ -8,22 +8,55 @@
         <meta charset="UTF-8">
         <meta name="author" content="Smaranjit Ghose">
         <meta name="description" content="Order food from HR05">
-        <meta name="keywords" content="HTML, CSS, JavaScript,food-ordering">
+        <meta name="keywords" content="Food, Ordering, HTML,food-ordering">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="assets/favicon.png">
         <!--Title of the page-->
         <title>HR05 | Login</title>
+        <style>
+                .topnav {
+                  background-color: #333;
+                  overflow: hidden;
+                }
+                
+                /* Style the links inside the navigation bar */
+                .topnav a {
+                  float: left;
+                  color: #f2f2f2;
+                  text-align: center;
+                  padding: 14px 16px;
+                  text-decoration: none;
+                  font-size: 17px;
+                }
+                
+                /* Change the color of links on hover */
+                .topnav a:hover {
+                  background-color: #ddd;
+                  color: black;
+                }
+                
+                /* Add a color to the active/current link */
+                .topnav a.active {
+                  background-color: #4CAF50;
+                  color: white;
+                }
+                ul {
+                  list-style-type: none;
+                  margin: 0;
+                  padding: 0;
+                }
+                        </style> 
     </head>
     <!--Content of the web page-->
     <body>
         <!-- Navigation Bar -->
-        <div class="nav-bar">
-            <a href="./index.html">Home</a>
-            <a href="./menu.html">Menu</a>
-            <a href="./contact.html">Contact</a>
-            <a href="./login.html">Login</a>
-        </div>
+        <div class="topnav">
+                <a  href="./index.html">Home</a>
+                <a href="./menu.html">Menu</a>
+                <a href="./contact.html">Contact</a>
+                <a class="active" href="./login.html">Login</a>
+       </div>
         <!--Header-->
         <center><h1>Login In/Sign Up</h1><center>
         <center><img src="assets/login.png" width=30% alt="Login"></center>
@@ -42,6 +75,5 @@
             </div>
         </form> 
         <!--Footer-->
-        <center><footer>Made with ❤️ by Smaranjit Ghose </footer></center>
     </body>
 </html>

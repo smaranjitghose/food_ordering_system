@@ -6,14 +6,14 @@ __Guide:__ [Mrs J Vidhya](https://www.srmist.edu.in/engineering/dept-cse/faculty
 
 __Topic:__ A template website for ordering food from your local Cafe! 
 
-__Demo:__ [Click Here](https://orderfromhr05.smaranjitghose.codes/)
+__Demo__: [Click Here](https://orderfromhr05.smaranjitghose.codes/)
 
 ** Here I build a dummy website for my favorite eatery near my college i.e. HR05
 
 | Sl.No | Description of experiment|Date|Status|
 |:-----:|---------------------------|:---:|----|
 |1|Create a simple webpage using HTML5 Semantic and Structural Elements | 2020-08-12 |✔️|
-|2|Create a webpage using HTML5 Media Elements| 2020-08-19 |❌|
+|2|Add a Cascading Style sheet for designing the web page | 2020-08-19 |❌|
 |3|Add a Cascading Style sheet for designing the web page | 2020-08-26 |❌|
 |4|Design a dynamic web page with validation using JavaScript| |❌|
 |5|Simple applications to demonstrate Servlets |  |❌|
