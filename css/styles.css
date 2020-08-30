@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+#auth {
+  background: #6a9113; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #141517,
+    #6a9113
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #141517,
+    #6a9113
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#register {
+  margin: auto;
+  padding: 15px;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#register h3 {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+#register input {
+  height: 42px;
+}
+
+#submitbtn {
+  width: 50%;
+  height: 50px;
+  background-color: #6eb030;
+  margin: auto;
+}
+.card {
+  width: 35%;
+}
+
+/* Homepage styles start */
+.logo img {
+  height: 100px;
+  padding-top: 10px;
+}
+
+.my-sm-0 {
+  margin-left: 5px !important;
+}
+
+#navbarNav {
+  margin-left: 100px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.61);
+  font-size: 18px;
+  padding: 5px 25px 5px 25px;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #3e9920;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  border-bottom: solid 2px #3e9920;
+}
+
+.caption {
+  margin: 160px 0px 0px 0px;
+}
+
+.caption h1 {
+  text-align: center;
+}
+
+.caption h2 {
+  text-align: center;
+}
+
+.caption p {
+  text-align: center;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+  width: 100%;
+  position: fixed;
+  z-index: 999999;
+}
+
+.btn-order {
+  background: #3e9920;
+  color: white;
+  margin-top: 20px;
+  width: 20%;
+  height: 50px;
+}
+
+.btn-order:hover {
+  background: #609c4f;
+}
+
+.btn-orderr {
+  background: #3e9920;
+  color: white;
+}
+
+.btn-orderr:hover {
+  background: #609c4f;
+}
+
+.banner {
+  background-image: url(../images/home-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.about h1 {
+  padding-top: 15%;
+}
+
+.testimonial h1 {
+  padding-top: 15%;
+  text-align: center;
+}
+
+.testimonial h4 {
+  text-align: center;
+}
+
+.testimonial h6 {
+  text-align: center;
+}
+
+.testimonial p {
+  text-align: center;
+}
+
+.spacer {
+  margin: 5%;
+}
+
+#log {
+  padding-right: 20px;
+}
+
+#logout {
+  display: none;
+}
+footer {
+  height: 70vh;
+  background-color: #000000;
+  margin-top: 30px;
+  color: #fff;
+  padding: 40px 0 0 60px;
+}
+footer span {
+  color: #3e9920;
+}
+footer h1 {
+  margin-bottom: 50px;
+}
+footer li {
+  color: #fff;
+  list-style: none;
+}
+footer a {
+  color: #fff;
+}
+#horizontal {
+  border-bottom: 1px solid #fff;
+  padding-top: 50px;
+}
+#copyright {
+  padding-top: 30px;
+}
+footer i {
+  font-size: 30px;
+}
+
+.ml-auto,
+.mx-auto {
+  margin-left: 35% !important;
+}
+
+/* NB : To be included when we merge our work
+
+@media screen and (max-width: 768px) {
+
+  #navbarNav{
+  margin: 65px !important;
+  }
+  
+}
+/* Homepage styles end */
+
+/* order section  */
+section h1 {
+  margin-top: 50px;
+}
+th {
+  padding-left: 80px;
+}
+.viewOrders {
+  padding-top: 30px;
+  display: none;
+}
+.myShoppingCart {
+  padding-top: 50px;
+}
+.myShoppingCart h4 {
+  padding-top: 35px;
+}
+

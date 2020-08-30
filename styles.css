@@ -1,0 +1,134 @@
+*{
+  overflow-x: hidden;
+}
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.logo img {
+  height: 100px;
+  padding-top: 10px;
+}
+#navbarNav {
+  margin-left: 100px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.61);
+  font-size: 18px;
+  padding: 5px 25px 5px 25px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  border-bottom: solid 2px #3e9920;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+nav {
+  align-items: center;
+}
+
+.confuse {
+  /* padding: 2.5%; */
+  color: transparent;
+}
+
+.card {
+  margin-top: 40px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+.btn {
+  color: white;
+  background-color: green;
+}
+.food-header {
+  margin-left: 150px;
+}
+#orderbtn {
+  width: 30%;
+  margin-left: 70px;
+}
+.change-cart {
+  border-radius: 80%;
+  -webkit-border-radius: 80%;
+  -moz-border-radius: 80%;
+  -ms-border-radius: 80%;
+  -o-border-radius: 80%;
+  width: 50px;
+}
+.modal-footer p {
+  padding: 0 20px 0 20px;
+}
+
+footer {
+  height: 70vh;
+  background-color: #000000;
+  margin-top: 30px;
+  color: #fff;
+  padding: 40px 0 0 60px;
+}
+footer span {
+  color: #3e9920;
+}
+footer h1 {
+  margin-bottom: 50px;
+}
+footer li {
+  color: #fff;
+  list-style: none;
+}
+footer a {
+  color: #fff;
+}
+#horizontal {
+  border-bottom: 1px solid #fff;
+  padding-top: 50px;
+}
+#copyright {
+  padding-top: 30px;
+}
+footer i {
+  font-size: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.61);
+  font-size: 18px;
+  padding: 5px 25px 5px 25px;
+  text-transform: uppercase;
+}
+tr {
+  padding: 12px 0 0 15px;
+}
+#success {
+  display: none;
+}

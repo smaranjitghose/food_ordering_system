@@ -1,0 +1,602 @@
+`<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./images/logo.png" type="image/icon" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+
+    <title>Food Ordering System</title>
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand logo" href="#"
+              ><img src="images/logo.png" alt="logo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./index.html"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./hotelsPage.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Orders</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    <h3>Githeri Hub menu</h3>
+    <!-- <nav>
+      <ul>
+        <li><a href="#breakfast">Breakfast</a></li>
+        <li><a href="#lunch">Lunch</a></li>
+        <li><a href="#pastries">Pasteries</a></li>
+        <li><a href="#beverages">Beverages</a></li>
+      </ul>
+    </nav> -->
+    <!-- <div class="confuse"></div> -->
+    <div id="lunch">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="images/githeri.jpg"
+                  height="250px"
+                  alt=""
+                  class="container-fluid"
+                />
+              </div>
+              <div class="card-footer text-center">
+                <span class="item-name">Githeri Avocado</span>
+                <div class="item-details">
+                  <p class="item-price">Rs. 100.00</p>
+                  <div
+                    class="btn-success btn"
+                    data-toggle="modal"
+                    data-target="#exampleModalCenter"
+                  >
+                    Order
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="images/mokimo.jpg"
+                  height="250px"
+                  alt=""
+                  class="container-fluid"
+                />
+              </div>
+              <div class="card-footer text-center">
+                <span class="item-name">Mokimo</span>
+                <div class="item-details">
+                  <p class="item-price">Rs. 150.00</p>
+                  <div
+                    class="btn-success btn"
+                    data-toggle="modal"
+                    data-target="#exampleModalCenterr"
+                  >
+                    Order
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="images/kuku2.jpeg"
+                  height="250px"
+                  alt=""
+                  class="container-fluid"
+                />
+              </div>
+              <div class="card-footer text-center">
+                <span class="item-name">Chicken/Kuku</span>
+                <div class="item-details">
+                  <p class="item-price">Rs. 200.00</p>
+                  <div
+                    class="btn-success btn"
+                    data-toggle="modal"
+                    data-target="#exampleModalCenterrr"
+                  >
+                    Order
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="images/chipo.jpeg"
+                    height="250px"
+                    alt=""
+                    class="container-fluid"
+                  />
+                </div>
+                <div class="card-footer text-center">
+                  <span class="item-name">Chips</span>
+                  <div class="item-details">
+                    <p class="item-price">Rs. 80.00</p>
+                    <div
+                      class="btn-success btn"
+                      data-toggle="modal"
+                      data-target="#exampleModalCenterrrr"
+                    >
+                      Order
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="images/spaghetti.jpeg"
+                    height="250px"
+                    alt=""
+                    class="container-fluid"
+                  />
+                </div>
+                <div class="card-footer text-center">
+                  <span class="item-name">spaghetti</span>
+                  <div class="item-details">
+                    <p class="item-price">Rs. 150.00</p>
+                    <div
+                      class="btn-success btn"
+                      data-toggle="modal"
+                      data-target="#exampleModalCenterrrrr"
+                    >
+                      Order
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="images/sausage.jpeg"
+                    height="250px"
+                    alt=""
+                    class="container-fluid"
+                  />
+                </div>
+                <div class="card-footer text-center">
+                  <span class="item-name">sausage</span>
+                  <div class="item-details">
+                    <p class="item-price">Rs. 50.00</p>
+                    <div
+                      class="btn-success btn"
+                      data-toggle="modal"
+                      data-target="#exampleModalCenterrrrrr"
+                    >
+                      Order
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- food 1 -->
+    <div
+      class="modal fade"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header food-header">
+            <h5 class="modal-title " id="exampleModalCenterTitle">
+              Githeri Avocado
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <center>
+              <img src="images/githeri.jpg" height="150px" alt="" />
+            </center>
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn change-cart" >
+              <i class="fa fa-minus"></i>
+            </button>
+            <p id="quantity">1</p>
+            <button class="btn change-cart mr-4">
+              <i class="fa fa-plus"></i>
+            </button>
+            <p id="price">100</p>
+            <button
+              data-dismiss="modal"
+              type="button"
+              class="btn btn-success align-right githeri"
+              id="orderbtn"
+            >
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- food 2 -->
+    <div
+      class="modal fade"
+      id="exampleModalCenterr"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitlee"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header food-header">
+            <h5 class="modal-title " id="exampleModalCenterTitlee">
+              Mokimo
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body test">
+            <center>
+              <img src="images/mokimo.jpg" height="150px" alt="" />
+            </center>
+          </div>
+          <div class="modal-footer">
+            <button class="btn change-cart"  ><i class="fa fa-minus"></i></button>
+            <p >1</p>
+            <button class="btn change-cart mr-4" >
+              <i class="fa fa-plus"></i>
+            </button>
+            <p >150</p>
+            <button
+              data-dismiss="modal"
+              type="button"
+              class="btn btn-success githe2 align-right"
+              id="orderbtn"
+            >
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- food 3 -->
+    <div
+      class="modal fade"
+      id="exampleModalCenterrr"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitleee"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header food-header">
+            <h5 class="modal-title " id="exampleModalCenterTitleee">
+              Chicken/Kuku
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body test">
+            <center>
+              <img src="images/kuku2.jpeg" height="150px" alt="" />
+            </center>
+          </div>
+          <div class="modal-footer">
+            <button class="btn change-cart" id="subtract3" ><i class="fa fa-minus"></i></button>
+            <p id="quantity3">1</p>
+            <button class="btn change-cart mr-4" id="add3">
+              <i class="fa fa-plus"></i>
+            </button>
+            <p id="price3">200</p>
+            <button
+              type="button"
+              class="btn btn-success githe3 align-right"
+              id="orderbtn"
+              data-dismiss="modal"
+            >
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- food 4 -->
+    <div
+      class="modal fade"
+      id="exampleModalCenterrrr"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitleeee"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header food-header">
+            <h5 class="modal-title " id="exampleModalCenterTitleeee">
+              Chips
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body test">
+            <center>
+              <img src="images/chipo.jpeg" height="150px" alt="" />
+            </center>
+          </div>
+          <div class="modal-footer">
+            <button class="btn change-cart"><i class="fa fa-minus"></i></button>
+            <p >1</p>
+            <button class="btn change-cart mr-4">
+              <i class="fa fa-plus"></i>
+            </button>
+            <p >80</p>
+            <button
+              type="button"
+              class="btn btn-success githe4 align-right"
+              id="orderbtn"
+              data-dismiss="modal"
+            >
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- food 5 -->
+    <div
+      class="modal fade"
+      id="exampleModalCenterrrrr"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitleeee"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header food-header">
+            <h5 class="modal-title " id="exampleModalCenterTitleeeee">
+              spaghetti
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body test">
+            <center>
+              <img src="images/spaghetti.jpeg" height="150px" alt="" />
+            </center>
+          </div>
+          <div class="modal-footer">
+            <button class="btn change-cart"><i class="fa fa-minus" ></i></button>
+            <p >1</p>
+            <button class="btn change-cart mr-4">
+              <i class="fa fa-plus"></i>
+            </button>
+            <p >150</p>
+            <button
+              type="button"
+              class="btn btn-success githe5 align-right"
+              id="orderbtn"
+              data-dismiss="modal"
+            >
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- food 6 -->
+    <div
+      class="modal fade"
+      id="exampleModalCenterrrrrr"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitleeeeee"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header food-header">
+            <h5 class="modal-title " id="exampleModalCenterTitleeeeee">
+              sausage
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body test">
+            <center>
+              <img src="images/sausage.jpeg" height="150px" alt="" />
+            </center>
+          </div>
+          <div class="modal-footer">
+            <button class="btn change-cart"><i class="fa fa-minus"></i></button>
+            <p>1</p>
+            <button class="btn change-cart mr-4" >
+              <i class="fa fa-plus"></i>
+            </button>
+            <p >50</p>
+            <button
+              type="button"
+              class="btn btn-success githe6 align-right"
+              id="orderbtn"
+              data-dismiss="modal"
+            >
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Food<span>Ordering System</span></h1>
+            <img src="./images/apple-store.svg" alt="" />
+            <img
+              src="./images/playstore.png"
+              height="40px"
+              alt=""
+              class="ml-4"
+            />
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li><a href="#">About Food Ordering System</a></li>
+              <li><a href="#">Read our blog</a></li>
+              <li><a href="#">Order now</a></li>
+              <li><a href="#">sign up</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li>Get Help</li>
+              <li>Read FAQS</li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container" id="horizontal"></div>
+      <div class="container" id="copyright">
+        <div class="row">
+          <div class="col-md-6">
+            <p>Copyrights &copy; Food Ordering System All rights reserved</p>
+          </div>
+          <div class="col-md-6">
+            <i class="fa fa-twitter" style="font-size: 30px;padding: 12px"></i>
+            <i
+              class="fa fa-instagram"
+              style="font-size: 30px;padding: 12px"
+            ></i>
+            <i class="fa fa-facebook" style="font-size: 30px;padding: 12px"></i>
+            <i class="fa fa-linkedin" style="font-size: 30px;padding: 12px"></i>
+            <i class="fa fa-phone" style="font-size: 30px;padding: 12px"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>

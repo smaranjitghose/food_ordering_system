@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./images/logo.png" type="image/icon" />
+    <link rel="stylesheet" href="./css/hotels.css" />
+
+    <title>Food Ordering System</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#"
+          ><img src="images/logo.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./hotelsPage.html">Menu</a>
+            </li>
+            <button
+              type="button"
+              class="btn btn-success"
+              data-toggle="modal"
+              data-target="#myModal"
+            >
+              ORDERS <span id="finalOrder">0</span>
+            </button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-4">
+      <h3>Choose your Restaurant</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="./china.html">
+            <div class="card">
+              <div class="card-body">
+                <img src="./images/Beef-Stew-Ugali-1.jpg" alt="hotel1" />
+              </div>
+              <div class="card-footer">
+                <div class="name">
+                  <p class="text-center">China Town</p>
+                </div>
+                <div class="descrptn">
+                  <p class="text-center">Continental Cuisines</p>
+                </div>
+                <div class="rate text-center">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star" style="color:gray"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="./fish.html">
+            <div class="card">
+              <div class="card-body">
+                <img src="./images/fish.jpg" alt="hotel2" />
+              </div>
+              <div class="card-footer">
+                <div class="name">
+                  <p class="text-center">Fish and Fries</p>
+                </div>
+                <div class="descrptn">
+                  <p class="text-center">Fish Parlor</p>
+                </div>
+                <div class="rate text-center">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o" arial-hidden="true"></i>
+                  <i class="fa fa-star" style="color:gray"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="adams.html">
+            <div class="card">
+              <div class="card-body">
+                <img src="./images/chicken_stew.png" alt="hotel3" />
+              </div>
+              <div class="card-footer">
+                <div class="name">
+                  <p class="text-center">Adam's Chicken Resturant</p>
+                </div>
+                <div class="descrptn">
+                  <p class="text-center">African Restaurant</p>
+                </div>
+                <div class="rate text-center">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o" arial-hidden="true"></i>
+                  <i class="fa fa-star" style="color:gray"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <a href="./india.html">
+            <div class="card">
+              <div class="card-body">
+                <img src="./images/omena.jpg" alt="hotel4" />
+              </div>
+              <div class="card-footer">
+                <div class="name">
+                  <p class="text-center">Indian Food</p>
+                </div>
+                <div class="descrptn">
+                  <p class="text-center">Swahili Dishes</p>
+                </div>
+                <div class="rate text-center">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star" style="color:gray"></i>
+                  <i class="fa fa-star" style="color:gray"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="githerihub.html">
+            <div class="card">
+              <div class="card-body">
+                <img src="./images/githeri.jpg" alt="hotel5" />
+              </div>
+              <div class="card-footer">
+                <div class="name">
+                  <p class="text-center">Githeri Hub</p>
+                </div>
+                <div class="descrptn">
+                  <p class="text-center">Get curried away</p>
+                </div>
+                <div class="rate text-center">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o" arial-hidden="true"></i>
+                  <i class="fa fa-star" style="color:gray"></i>
+                  <i class="fa fa-star" style="color:gray"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="chipo.html">
+            <div class="card">
+              <div class="card-body">
+                <img src="./images/fries1.jpg" alt="hotel6" />
+              </div>
+              <div class="card-footer">
+                <div class="name">
+                  <p class="text-center">Chipotle Express</p>
+                </div>
+
+                <div class="descrptn">
+                  <p class="text-center">Unpack goodness</p>
+                </div>
+                <div class="rate text-center">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o" arial-hidden="true"></i>
+                  <i class="fa fa-star" style="color:gray"></i>
+                  <i class="fa fa-star" style="color: gray"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h1>Food<span>Ordering System</span></h1>
+              <img src="./images/apple-store.svg" alt="" />
+              <img
+                src="./images/playstore.png"
+                height="40px"
+                alt=""
+                class="ml-4"
+              />
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li><a href="#">About Food Ordering System</a></li>
+                <li><a href="#">Read our blog</a></li>
+                <li><a href="#">Order now</a></li>
+                <li><a href="#">sign up</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul>
+                <li>Get Help</li>
+                <li>Read FAQS</li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container" id="horizontal"></div>
+        <div class="container" id="copyright">
+          <div class="row">
+            <div class="col-md-6">
+              <p>Copyrights &copy; Food Ordering System All rights reserved</p>
+            </div>
+            <div class="col-md-6">
+              <i class="fa fa-twitter" style="font-size: 30px;padding: 12px"></i>
+              <i
+                class="fa fa-instagram"
+                style="font-size: 30px;padding: 12px"
+              ></i>
+              <i class="fa fa-facebook" style="font-size: 30px;padding: 12px"></i>
+              <i class="fa fa-linkedin" style="font-size: 30px;padding: 12px"></i>
+              <i class="fa fa-phone" style="font-size: 30px;padding: 12px"></i>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>

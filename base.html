@@ -20,49 +20,10 @@
       rel="stylesheet"
     />
     <link rel="icon" href="./images/logo.png" type="image/icon" />
-    <link rel="stylesheet" href="./css/styles.css" />
 
     <title>Food Ordering System</title>
   </head>
-  <body id="auth">
-    <div class="card" id="register">
-      <div class="card-title">
-        <h3 class="text-center">Sign in</h3>
-      </div>
-      <div class="card-body">
-        <form id="login-form">
-          <div class="form-group">
-            <label for="exampleInputEmail1">Enter email</label>
-            <input
-              type="email"
-              class="form-control"
-              id="my-email"
-              aria-describedby="emailHelp"
-              placeholder="Enter email"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input
-              type="password"
-              class="form-control"
-              id="my-password"
-              placeholder="Password"
-              required
-            />
-          </div>
-
-          <button type="submit" class="btn btn-success" id="submitbtn">
-            Sign in
-          </button>
-          <p class="pt-2">
-            Have no account? <a href="./register.html">Sign up.</a>
-          </p>
-        </form>
-      </div>
-    </div>
-
+  <body>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -85,3 +46,56 @@
     <script src="./js/scripts.js"></script>
   </body>
 </html>
+
+<!-- modal -->
+<!-- food 1 -->
+<div
+  class="modal fade"
+  id="exampleModalCenter"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header food-header">
+        <h5 class="modal-title " id="exampleModalCenterTitle">
+          Rice and Omena
+        </h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <center>
+          <img
+            src="http://sembe.co.ke/images/new_resource/omena.jpg"
+            height="150px"
+            alt=""
+          />
+        </center>
+      </div>
+      <div class="modal-footer">
+        <button class="btn change-cart"><i class="fa fa-minus"></i></button>
+        <p>1</p>
+        <button class="btn change-cart mr-4">
+          <i class="fa fa-plus"></i>
+        </button>
+        <button type="button" class="btn btn-primary align-right" id="orderbtn">
+          Add to cart
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- css  -->
+.food-header { margin-left: 150px; } #orderbtn { width: 40%; margin-left: 70px;
+} .change-cart { border-radius: 80%; -webkit-border-radius: 80%;
+-moz-border-radius: 80%; -ms-border-radius: 80%; -o-border-radius: 80%; width:
+50px; } .modal-footer p { padding: 0 20px 0 20px; }
